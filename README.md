@@ -7,7 +7,7 @@ The goal is to draft a default Registry Report that would be available through t
 This idea was raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee.
 
 ### Validation of IETF draft
-You may validate the draft document with https://tools.ietf.org/tools/idnits/
+You may validate the [draft] document with https://tools.ietf.org/tools/idnits/
 
 ### License
 This is free and unencumbered software released into the public domain. For more info, please read the [LICENSE] file distributed.
@@ -18,3 +18,4 @@ This is free and unencumbered software released into the public domain. For more
 [TechOps]: http://icannregistrars.org/techops-sub-committee/
 [LICENSE]: /LICENSE
 [Registry Reporting Repository]: https://github.com/seitsu/registry-reporting-repository
+[draft]: /draft-mcpherson-sattler-registry-reporting-reports.txt
