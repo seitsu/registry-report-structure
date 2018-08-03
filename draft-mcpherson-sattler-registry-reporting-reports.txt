@@ -126,10 +126,8 @@ Internet-Draft           Registry Reporting Reports          August 2018
 
 8.  Security Considerations
 
-   The registry reporting repository described in this document do not
-   provide any security services beyond those described by SFTP. The
-   security considerations described in these other specifications apply
-   to this specification as well.
+   The registry reporting reports described in this document do not
+   provide any security services.
 
 McPherson & Sattler       Expires February 5, 2019              [Page 4]
 
@@ -220,4 +218,4 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler       Expires February 5, 2019              [Page 5]
+McPherson & Sattler       Expires February 5, 2019              [Page 6]
