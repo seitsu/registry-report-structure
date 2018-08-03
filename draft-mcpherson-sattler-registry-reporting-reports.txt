@@ -3,7 +3,7 @@ Internet-Draft                                           1&1 Internet SE
 Intended status: Best Current Practice                        T. Sattler
 Expires: February 5, 2019                                 August 6, 2018
 
-                      Registry Reporting Reports
+                       Registry Reporting Reports
           draft-mcpherson-sattler-registry-reporting-reports-00
 
 Abstract
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on February 6, 2019.
+   This Internet-Draft will expire on February 5, 2019.
 
 Copyright Notice
 
@@ -44,16 +44,16 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler     Expires February 6, 2019                [Page 1]
+McPherson & Sattler       Expires February 5, 2019              [Page 1]
 
-Internet-Draft        Registry Reporting Repository          August 2018
+Internet-Draft           Registry Reporting Reports          August 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
    2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   3
    3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  File Types  . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   5.  Character Encoding . . . . . . .. . . . . . . . . . . . . . .   4
+   5.  Character Encoding  . . . . . . . . . . . . . . . . . . . . .   4
    6.  Delimiter . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    7.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    8.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
@@ -65,9 +65,9 @@ Table of Contents
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
-McPherson & Sattler     Expires February 6, 2019                [Page 2]
+McPherson & Sattler       Expires February 5, 2019              [Page 2]
 
-Internet-Draft        Registry Reporting Repository          August 2018
+Internet-Draft           Registry Reporting Reports          August 2018
 
 1.  Introduction
 
@@ -108,9 +108,9 @@ Internet-Draft        Registry Reporting Repository          August 2018
 
    Files MUST be CSV files.
 
-McPherson & Sattler     Expires February 6, 2019                [Page 3]
+McPherson & Sattler       Expires February 5, 2019              [Page 3]
 
-Internet-Draft        Registry Reporting Repository          August 2018
+Internet-Draft           Registry Reporting Reports          August 2018
 
 5.  Character Encoding
 
@@ -131,9 +131,9 @@ Internet-Draft        Registry Reporting Repository          August 2018
    security considerations described in these other specifications apply
    to this specification as well.
 
-McPherson & Sattler     Expires February 6, 2019                [Page 4]
+McPherson & Sattler       Expires February 5, 2019              [Page 4]
 
-Internet-Draft        Registry Reporting Repository          August 2018
+Internet-Draft           Registry Reporting Reports          August 2018
 
 9.  Implementation Status
 
@@ -170,9 +170,9 @@ Internet-Draft        Registry Reporting Repository          August 2018
               Requirement Levels", BCP 14, RFC 2119, March 1997,
               <https://www.rfc-editor.org/info/rfc2119>.
 
-McPherson & Sattler     Expires February 6, 2019                [Page 5]
+McPherson & Sattler       Expires February 5, 2019              [Page 5]
 
-Internet-Draft        Registry Reporting Repository          August 2018
+Internet-Draft           Registry Reporting Reports          August 2018
 
 10.2.  Informative References
 
@@ -220,4 +220,4 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler     Expires February 6, 2019                [Page 6]
+McPherson & Sattler       Expires February 5, 2019              [Page 5]
