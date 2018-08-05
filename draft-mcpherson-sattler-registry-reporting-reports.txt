@@ -105,8 +105,10 @@ Internet-Draft           Registry Reporting Reports          August 2018
    All dates and times attribute values MUST be expressed in Universal
    Coordinated Time (UTC) using the Gregorian calendar. The extended
    date-time form using upper case "T" and "Z" characters defined in ISO
-   8601 [RFC3339] MUST be used to represent date-time values. The time
-   zone UTC+0 serves as the basis for a day.
+   8601 [RFC3339] MUST be used to represent date-time values.
+   
+   One day is defined as one day in UTC+0. Therefore, months and years
+   will also be calculated on this basis.
    
 2.3.  Character Encoding
 
@@ -115,14 +117,35 @@ Internet-Draft           Registry Reporting Reports          August 2018
    
 3.  File Names
 
-   Files MUST be lowercase and follow the following grammar:
+   Files MUST be lowercase and follow this grammar:
    
    PREFIX "_" TYPE "_" DATE "." FILESUFFIX
    
-   PREFIX      identifier for ...
-   TYPE        identifier for ...
-   DATE        ....
-   FILESUFFIX  .....
+   PREFIX      indicates if the file is either a report specific for
+               a TLD or a registry. A report of a registry MAY include
+               more than one TLD.
+   
+   TYPE        indicates the type of the file, value MUST be either
+               'premium-domains', 'unavailable-domains' or
+               'transactions'.
+   
+   DATE        indicates the date of the file and MUST be
+               YYY-MM-DD according to ISO 8601 [RFC3339]
+   
+   FILESUFFIX  identifier specified as a suffix to the name of the file
+               and indicates a characteristic of the file contents or
+               its intended use.
+               
+   Example based on the above grammar:
+   
+   Report of premium domain names for the TLD .example effective on
+   2018-08-01: example_premium-domains_2018-08-01.csv
+   
+   Report of transactions for the TLD .example effective on
+   2018-08-02: example_transactions_20180802.csv
+   
+   Report of premium domain names for the .example Registry effective on
+   2018-08-01: example-registry_premium-domains_20180801.csv
       
 4.  File Types
 
