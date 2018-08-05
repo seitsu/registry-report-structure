@@ -54,11 +54,11 @@ Table of Contents
      2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
      2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
-   3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   3
-   4.  File Types  . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+   4.  File Types  . . . . . . . . . . . . . . . . . . . . . . . . .   4
    5.  Delimiter . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
+   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
    8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   5
    9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
      9.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
@@ -114,6 +114,10 @@ Internet-Draft           Registry Reporting Reports          August 2018
 
    Files and their content MUST be encoded in UTF-8 according to
    [RFC3629].
+
+McPherson & Sattler       Expires February 5, 2019              [Page 3]
+
+Internet-Draft           Registry Reporting Reports          August 2018
    
 3.  File Names
 
@@ -151,10 +155,6 @@ Internet-Draft           Registry Reporting Reports          August 2018
 
    Files MUST be CSV files.
 
-McPherson & Sattler       Expires February 5, 2019              [Page 3]
-
-Internet-Draft           Registry Reporting Reports          August 2018
-
 5.  Delimiter
 
    The delimiter MUST be semicolon.
@@ -163,14 +163,14 @@ Internet-Draft           Registry Reporting Reports          August 2018
 
    This document has no IANA actions.
 
+McPherson & Sattler       Expires February 5, 2019              [Page 4]
+
+Internet-Draft           Registry Reporting Reports          August 2018
+
 7.  Security Considerations
 
    The registry reporting reports described in this document do not
    provide any security services.
-
-McPherson & Sattler       Expires February 5, 2019              [Page 4]
-
-Internet-Draft           Registry Reporting Reports          August 2018
 
 8.  Implementation Status
 
