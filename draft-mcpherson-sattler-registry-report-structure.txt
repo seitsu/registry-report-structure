@@ -1,14 +1,14 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                           1&1 Internet SE
 Intended status: Best Current Practice                        T. Sattler
-Expires: February 5, 2019                                 August 6, 2018
+Expires: February 28, 2019                               August 31, 2018
 
-                       Registry Reporting Reports
-          draft-mcpherson-sattler-registry-reporting-reports-00
+                       Registry Report Structure
+          draft-mcpherson-sattler-registry-report-structure-00
 
 Abstract
       
-   This document describes the format for reports that a domain name
+   This document describes the structure for reports that a domain name
    registry can provide via the standardized registry reporting
    repository.
 
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on February 5, 2019.
+   This Internet-Draft will expire on February 28, 2019.
 
 Copyright Notice
 
@@ -44,9 +44,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler       Expires February 5, 2019              [Page 1]
+McPherson & Sattler       Expires February 28, 2019             [Page 1]
 
-Internet-Draft           Registry Reporting Reports          August 2018
+Internet-Draft            Registry Report Structure          August 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
@@ -67,9 +67,9 @@ Table of Contents
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
-McPherson & Sattler       Expires February 5, 2019              [Page 2]
+McPherson & Sattler       Expires February 28, 2019             [Page 2]
 
-Internet-Draft           Registry Reporting Reports          August 2018
+Internet-Draft            Registry Report Structure          August 2018
 
 1.  Introduction
 
@@ -115,9 +115,9 @@ Internet-Draft           Registry Reporting Reports          August 2018
    Files and their content MUST be encoded in UTF-8 according to
    [RFC3629].
 
-McPherson & Sattler       Expires February 5, 2019              [Page 3]
+McPherson & Sattler       Expires February 28, 2019             [Page 3]
 
-Internet-Draft           Registry Reporting Reports          August 2018
+Internet-Draft            Registry Report Structure          August 2018
    
 3.  File Names
 
@@ -163,9 +163,9 @@ Internet-Draft           Registry Reporting Reports          August 2018
 
    This document has no IANA actions.
 
-McPherson & Sattler       Expires February 5, 2019              [Page 4]
+McPherson & Sattler       Expires February 28, 2019             [Page 4]
 
-Internet-Draft           Registry Reporting Reports          August 2018
+Internet-Draft            Registry Report Structure          August 2018
 
 7.  Security Considerations
 
@@ -212,9 +212,9 @@ Internet-Draft           Registry Reporting Reports          August 2018
               RFC 5890, August 2010,
               <https://www.rfc-editor.org/info/rfc5890>.
 
-McPherson & Sattler       Expires February 5, 2019              [Page 5]
+McPherson & Sattler       Expires February 28, 2019             [Page 5]
 
-Internet-Draft           Registry Reporting Reports          August 2018
+Internet-Draft            Registry Report Structure          August 2018
 
 9.2.  Informative References
 
@@ -266,4 +266,4 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler       Expires February 5, 2019              [Page 6]
+McPherson & Sattler       Expires February 28, 2019             [Page 6]
