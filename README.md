@@ -18,4 +18,4 @@ This is free and unencumbered software released into the public domain. For more
 [TechOps]: http://icannregistrars.org/techops-sub-committee/
 [LICENSE]: /LICENSE
 [Registry Reporting Repository]: https://github.com/seitsu/registry-reporting-repository
-[draft]: /draft-mcpherson-sattler-registry-reporting-reports.txt
+[draft]: /draft-mcpherson-sattler-registry-report-structure.txt
