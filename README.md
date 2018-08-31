@@ -1,7 +1,7 @@
-## Registry Reporting Reports
+## Registry Report Structure
 
 ### Goal
-The goal is to draft a default Registry Report that would be available through the [Registry Reporting Repository] and to submit it as an IETF best practice draft that hopefully result in a [RFC].
+The goal is to draft a default Registry Report Structure that would allow to create standardized Registry Reports which be available through the [Registry Reporting Repository] and to submit it as an IETF best practice draft that hopefully result in a [RFC].
 
 ### The Current Status
 This idea was raised in the ICANN Registrar Stakeholder Group ([RrSG]) Technical and Operational ([TechOps]) Subcommittee.
