@@ -1,10 +1,10 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                           1&1 Internet SE
 Intended status: Best Current Practice                        T. Sattler
-Expires: March 9, 2019                                September 10, 2018
+Expires: May 4, 2019                                    November 5, 2018
 
                        Registry Report Structure
-          draft-mcpherson-sattler-registry-report-structure-01
+          draft-mcpherson-sattler-registry-report-structure-02
 
 Abstract
       
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on March 9, 2019.
+   This Internet-Draft will expire on May 4, 2019.
 
 Copyright Notice
 
@@ -44,9 +44,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler       Expires March 9, 2019                 [Page 1]
+McPherson & Sattler         Expires May 4, 2019                 [Page 1]
 
-Internet-Draft            Registry Report Structure       September 2018
+Internet-Draft            Registry Report Structure        November 2018
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
@@ -65,12 +65,13 @@ Table of Contents
      9.2.  Informative References  . . . . . . . . . . . . . . . . .   6
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   6
      A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   6
+     A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   6
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
-McPherson & Sattler       Expires March 9, 2019                 [Page 2]
+McPherson & Sattler         Expires May 4, 2019                 [Page 2]
 
-Internet-Draft            Registry Report Structure       September 2018
+Internet-Draft            Registry Report Structure        November 2018
 
 1.  Introduction
 
@@ -116,9 +117,9 @@ Internet-Draft            Registry Report Structure       September 2018
    Files and their content MUST be encoded in UTF-8 according to
    [RFC3629].
 
-McPherson & Sattler       Expires March 9, 2019                 [Page 3]
+McPherson & Sattler         Expires May 4, 2019                 [Page 3]
 
-Internet-Draft            Registry Report Structure       September 2018
+Internet-Draft            Registry Report Structure        November 2018
    
 3.  File Names
 
@@ -164,9 +165,9 @@ Internet-Draft            Registry Report Structure       September 2018
 
    This document has no IANA actions.
 
-McPherson & Sattler       Expires March 9, 2019                 [Page 4]
+McPherson & Sattler         Expires May 4, 2019                 [Page 4]
 
-Internet-Draft            Registry Report Structure       September 2018
+Internet-Draft            Registry Report Structure        November 2018
 
 7.  Security Considerations
 
@@ -213,9 +214,9 @@ Internet-Draft            Registry Report Structure       September 2018
               RFC 5890, August 2010,
               <https://www.rfc-editor.org/info/rfc5890>.
 
-McPherson & Sattler       Expires March 9, 2019                 [Page 5]
+McPherson & Sattler         Expires May 4, 2019                 [Page 5]
 
-Internet-Draft            Registry Report Structure       September 2018
+Internet-Draft            Registry Report Structure        November 2018
 
 9.2.  Informative References
 
@@ -243,30 +244,34 @@ Appendix A.  Change History
 A.1.  Change from 00 to 01
 
    Fixed minor typos in section 3. Clarified usage of csv files suffix.
+   
+A.2.  Change from 01 to 02
+
+   Updated Neal's author details.
 
 Appendix B.  Acknowledgements
 
    The authors wish to thank the following persons for their feedback
    and suggestions (sorted alphabetically by company):
 
-   * Thomas Keller, 1&1 Internet
+   * Thomas Keller, 1&1 IONOS
    * James Galvin, Afilias
    * Andreas Huber, united-domains
 
 Authors' Addresses
 
    Neal McPherson
-   1&1 Internet SE
+   1&1 IONOS SE
    Ernst-Frey-Str. 5
    76135 Karlsruhe
    DE
 
-   Email: neal.mcpherson@1und1.de
-   URI:   https://www.1und1.de
+   Email: neal.mcpherson@ionos.com
+   URI:   https://www.ionos.com
 
    Tobias Sattler
 
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler       Expires March 9, 2019                 [Page 6]
+McPherson & Sattler         Expires May 4, 2019                 [Page 6]
