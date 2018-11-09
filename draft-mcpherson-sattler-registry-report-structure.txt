@@ -1,10 +1,10 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                        T. Sattler
-Expires: May 4, 2019                                    November 5, 2018
+Expires: May 11, 2019                                  November 12, 2018
 
                        Registry Report Structure
-          draft-mcpherson-sattler-registry-report-structure-02
+          draft-mcpherson-sattler-registry-report-structure-03
 
 Abstract
       
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 4, 2019.
+   This Internet-Draft will expire on May 11, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler         Expires May 4, 2019                 [Page 1]
+McPherson & Sattler         Expires May 11, 2019                [Page 1]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -54,6 +54,7 @@ Table of Contents
      2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
      2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
+     2.4.  Currency  . . . . . . . . . . . . . . . . . . . . . . . .   3
    3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   4
    4.  File Types  . . . . . . . . . . . . . . . . . . . . . . . . .   4
    5.  Delimiter . . . . . . . . . . . . . . . . . . . . . . . . . .   4
@@ -66,10 +67,11 @@ Table of Contents
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   6
      A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   6
      A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   6
-   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
+     A.3.  Change from 02 to 03  . . . . . . . . . . . . . . . . . .   6
+   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   7
 
-McPherson & Sattler         Expires May 4, 2019                 [Page 2]
+McPherson & Sattler         Expires May 11, 2019                [Page 2]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -116,8 +118,14 @@ Internet-Draft            Registry Report Structure        November 2018
 
    Files and their content MUST be encoded in UTF-8 according to
    [RFC3629].
+   
+2.4.  Currency
 
-McPherson & Sattler         Expires May 4, 2019                 [Page 3]
+   Currencies MUST be listed with the relevant 3 letter Currency
+   Alphabetic Code according to ISO 4217 (https://www.iso.org/iso-4217-
+   currency-codes.html).
+
+McPherson & Sattler         Expires May 11, 2019                [Page 3]
 
 Internet-Draft            Registry Report Structure        November 2018
    
@@ -136,7 +144,7 @@ Internet-Draft            Registry Report Structure        November 2018
                'transactions'.
    
    DATE        indicates the date of the file and MUST be
-               YYYY-MM-DD according to ISO 8601 [RFC3339]
+               YYYY-MM-DD or YYYY-MM according to ISO 8601 [RFC3339]
    
    FILESUFFIX  identifier specified as a suffix to the name of the file
                and indicates a characteristic of the file contents or
@@ -144,14 +152,14 @@ Internet-Draft            Registry Report Structure        November 2018
                
    Example based on the above grammar:
    
-   Report of premium domain names for the TLD .example effective on
-   2018-08-01: example_premium-domains_2018-08-01.csv
+   Daily report of premium domain names for the TLD .example effective
+   on 2018-08-01: example_premium-domains_2018-08-01.csv
    
-   Report of transactions for the TLD .example effective on
-   2018-08-02: example_transactions_2018-08-02.csv
+   Monthly report of transactions for the TLD .example effective on
+   2018-08: example_transactions_2018-08.csv
    
-   Report of premium domain names for the .example Registry effective on
-   2018-08-01: example-registry_premium-domains_2018-08-01.csv
+   Monthly report of premium domain names for the .example registry
+   effective on 2018-08: example-registry_premium-domains_2018-08-01.csv
       
 4.  File Types
 
@@ -165,7 +173,7 @@ Internet-Draft            Registry Report Structure        November 2018
 
    This document has no IANA actions.
 
-McPherson & Sattler         Expires May 4, 2019                 [Page 4]
+McPherson & Sattler         Expires May 11, 2019                [Page 4]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -214,7 +222,7 @@ Internet-Draft            Registry Report Structure        November 2018
               RFC 5890, August 2010,
               <https://www.rfc-editor.org/info/rfc5890>.
 
-McPherson & Sattler         Expires May 4, 2019                 [Page 5]
+McPherson & Sattler         Expires May 11, 2019                [Page 5]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -248,6 +256,15 @@ A.1.  Change from 00 to 01
 A.2.  Change from 01 to 02
 
    Updated Neal's author details.
+   
+A.3.  Change from 02 to 03
+
+   Added definition of currency. Added monthly reports and changed
+   examples.
+   
+McPherson & Sattler         Expires May 11, 2019                [Page 6]
+
+Internet-Draft            Registry Report Structure        November 2018
 
 Appendix B.  Acknowledgements
 
@@ -274,4 +291,4 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler         Expires May 4, 2019                 [Page 6]
+McPherson & Sattler         Expires May 11, 2019                [Page 7]
