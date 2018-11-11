@@ -1,7 +1,7 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                        T. Sattler
-Expires: May 11, 2019                                  November 12, 2018
+Expires: May 9, 2019                                   November 10, 2018
 
                        Registry Report Structure
           draft-mcpherson-sattler-registry-report-structure-03
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 11, 2019.
+   This Internet-Draft will expire on May 9, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler         Expires May 11, 2019                [Page 1]
+McPherson & Sattler         Expires May 9, 2019                 [Page 1]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -71,7 +71,7 @@ Table of Contents
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   7
 
-McPherson & Sattler         Expires May 11, 2019                [Page 2]
+McPherson & Sattler         Expires May 9, 2019                 [Page 2]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -125,7 +125,7 @@ Internet-Draft            Registry Report Structure        November 2018
    Alphabetic Code according to ISO 4217 (https://www.iso.org/iso-4217-
    currency-codes.html).
 
-McPherson & Sattler         Expires May 11, 2019                [Page 3]
+McPherson & Sattler         Expires May 9, 2019                 [Page 3]
 
 Internet-Draft            Registry Report Structure        November 2018
    
@@ -159,7 +159,7 @@ Internet-Draft            Registry Report Structure        November 2018
    2018-08: example_transactions_2018-08.csv
    
    Monthly report of premium domain names for the .example registry
-   effective on 2018-08: example-registry_premium-domains_2018-08-01.csv
+   effective on 2018-08: example-registry_premium-domains_2018-08.csv
       
 4.  File Types
 
@@ -173,7 +173,7 @@ Internet-Draft            Registry Report Structure        November 2018
 
    This document has no IANA actions.
 
-McPherson & Sattler         Expires May 11, 2019                [Page 4]
+McPherson & Sattler         Expires May 9, 2019                 [Page 4]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -222,7 +222,7 @@ Internet-Draft            Registry Report Structure        November 2018
               RFC 5890, August 2010,
               <https://www.rfc-editor.org/info/rfc5890>.
 
-McPherson & Sattler         Expires May 11, 2019                [Page 5]
+McPherson & Sattler         Expires May 9, 2019                 [Page 5]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -262,7 +262,7 @@ A.3.  Change from 02 to 03
    Added definition of currency. Added monthly reports and changed
    examples.
    
-McPherson & Sattler         Expires May 11, 2019                [Page 6]
+McPherson & Sattler         Expires May 9, 2019                 [Page 6]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -291,4 +291,4 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler         Expires May 11, 2019                [Page 7]
+McPherson & Sattler         Expires May 9, 2019                 [Page 7]
