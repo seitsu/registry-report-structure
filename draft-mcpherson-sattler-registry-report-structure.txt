@@ -103,7 +103,7 @@ Internet-Draft            Registry Report Structure        November 2018
    
 2.1.  Internationalized Domain Names
 
-   Top-Level Domains and Domain names contained in a file name or file
+   Top-level domains and domain names contained in a file name or file
    MUST be written as A-LABEL according to [RFC5890].
 
 2.2.  Dates and Times
@@ -123,8 +123,8 @@ Internet-Draft            Registry Report Structure        November 2018
    
 2.4.  Currency
 
-   Currencies MUST be listed with the relevant 3 letter Currency
-   Alphabetic Code according to ISO 4217 (https://www.iso.org/iso-4217-
+   Currencies MUST be listed with the relevant 3 letter currency
+   alphabetic code according to ISO 4217 (https://www.iso.org/iso-4217-
    currency-codes.html).
 
 McPherson & Sattler         Expires May 29, 2019                [Page 3]
@@ -276,7 +276,7 @@ A.4.  Change from 03 to 04
    
 A.5.  Change from 04 to 05
 
-   Added editor flag to author.
+   Added editor flag to author. Minor formatting changes.
    
 McPherson & Sattler         Expires May 29, 2019                [Page 6]
 
@@ -287,9 +287,9 @@ Appendix B.  Acknowledgements
    The authors wish to thank the following persons for their feedback
    and suggestions (sorted alphabetically by company):
 
-   * Thomas Keller, 1&1 IONOS
-   * James Galvin, Afilias
-   * Andreas Huber, united-domains
+   o Thomas Keller, 1&1 IONOS
+   o James Galvin, Afilias
+   o Andreas Huber, united-domains
 
 Authors' Addresses
 
