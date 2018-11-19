@@ -49,33 +49,29 @@ McPherson & Sattler         Expires May 29, 2019                [Page 1]
 Internet-Draft            Registry Report Structure        November 2018
 
 Table of Contents
-   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   3
+   1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
+   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   2
      2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
      2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
      2.4.  Currency  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   4
+   3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   3
    4.  File Types  . . . . . . . . . . . . . . . . . . . . . . . . .   4
    5.  Delimiter . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
-   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   5
-   8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   5
+   7.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
+   8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   4
    9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
      9.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
-     9.2.  Informative References  . . . . . . . . . . . . . . . . .   6
-   Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   6
-     A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   6
-     A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   6
-     A.3.  Change from 02 to 03  . . . . . . . . . . . . . . . . . .   6
+     9.2.  Informative References  . . . . . . . . . . . . . . . . .   5
+   Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   5
+     A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   5
+     A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   5
+     A.3.  Change from 02 to 03  . . . . . . . . . . . . . . . . . .   5
      A.4.  Change from 03 to 04  . . . . . . . . . . . . . . . . . .   6
      A.5.  Change from 04 to 05  . . . . . . . . . . . . . . . . . .   6
-   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
-   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   7
-
-McPherson & Sattler         Expires May 29, 2019                [Page 2]
-
-Internet-Draft            Registry Report Structure        November 2018
+   Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
+   Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
 1.  Introduction
 
@@ -100,6 +96,10 @@ Internet-Draft            Registry Report Structure        November 2018
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
+   
+McPherson & Sattler         Expires May 29, 2019                [Page 2]
+
+Internet-Draft            Registry Report Structure        November 2018
    
 2.1.  Internationalized Domain Names
 
@@ -126,10 +126,6 @@ Internet-Draft            Registry Report Structure        November 2018
    Currencies MUST be listed with the relevant 3 letter currency
    alphabetic code according to ISO 4217 (https://www.iso.org/iso-4217-
    currency-codes.html).
-
-McPherson & Sattler         Expires May 29, 2019                [Page 3]
-
-Internet-Draft            Registry Report Structure        November 2018
    
 3.  File Names
 
@@ -151,6 +147,10 @@ Internet-Draft            Registry Report Structure        November 2018
    FILESUFFIX  identifier specified as a suffix to the name of the file
                and indicates a characteristic of the file contents or
                its intended use. The file suffix MUST be csv.
+               
+McPherson & Sattler         Expires May 29, 2019                [Page 3]
+
+Internet-Draft            Registry Report Structure        November 2018
                
    Example based on the above grammar:
    
@@ -175,13 +175,9 @@ Internet-Draft            Registry Report Structure        November 2018
 
    This document has no IANA actions.
 
-McPherson & Sattler         Expires May 29, 2019                [Page 4]
-
-Internet-Draft            Registry Report Structure        November 2018
-
 7.  Security Considerations
-
-   The registry reporting reports described in this document do not
+   
+   The registry report structure described in this document does not
    provide any security services.
 
 8.  Implementation Status
@@ -210,6 +206,10 @@ Internet-Draft            Registry Report Structure        November 2018
    they see fit".
 
    Add implementation details once available.
+   
+McPherson & Sattler         Expires May 29, 2019                [Page 4]
+
+Internet-Draft            Registry Report Structure        November 2018
 
 9.  References
 
@@ -223,10 +223,6 @@ Internet-Draft            Registry Report Structure        November 2018
               Applications (IDNA): Definitions and Document Framework",
               RFC 5890, August 2010,
               <https://www.rfc-editor.org/info/rfc5890>.
-
-McPherson & Sattler         Expires May 29, 2019                [Page 5]
-
-Internet-Draft            Registry Report Structure        November 2018
 
 9.2.  Informative References
 
@@ -269,6 +265,10 @@ A.3.  Change from 02 to 03
    Added definition of currency. Added monthly reports and changed
    examples.
    
+McPherson & Sattler         Expires May 29, 2019                [Page 5]
+
+Internet-Draft            Registry Report Structure        November 2018
+   
 A.4.  Change from 03 to 04
 
    Added reference to RFC4180 for CSV files, and changed delimiter to
@@ -276,11 +276,8 @@ A.4.  Change from 03 to 04
    
 A.5.  Change from 04 to 05
 
-   Added editor flag to author. Minor formatting changes.
-   
-McPherson & Sattler         Expires May 29, 2019                [Page 6]
-
-Internet-Draft            Registry Report Structure        November 2018
+   Added editor flag to author. Minor formatting changes. Changed
+   security considerations.
 
 Appendix B.  Acknowledgements
 
@@ -307,5 +304,5 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler         Expires May 29, 2019                [Page 7]
+McPherson & Sattler         Expires May 29, 2019                [Page 6]
 
