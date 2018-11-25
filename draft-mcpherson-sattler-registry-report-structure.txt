@@ -1,7 +1,7 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                T. Sattler, Editor
-Expires: May 25, 2019                                  November 26, 2018
+Expires: May 24, 2019                                  November 25, 2018
 
                        Registry Report Structure
           draft-mcpherson-sattler-registry-report-structure-06
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 25, 2019.
+   This Internet-Draft will expire on May 24, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler         Expires May 25, 2019                [Page 1]
+McPherson & Sattler         Expires May 24, 2019                [Page 1]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -98,7 +98,7 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
-McPherson & Sattler         Expires May 25, 2019                [Page 2]
+McPherson & Sattler         Expires May 24, 2019                [Page 2]
 
 Internet-Draft            Registry Report Structure        November 2018
    
@@ -149,7 +149,7 @@ Internet-Draft            Registry Report Structure        November 2018
                and indicates a characteristic of the file contents or
                its intended use. The file suffix MUST be csv.
                
-McPherson & Sattler         Expires May 25, 2019                [Page 3]
+McPherson & Sattler         Expires May 24, 2019                [Page 3]
 
 Internet-Draft            Registry Report Structure        November 2018
                
@@ -207,7 +207,7 @@ Internet-Draft            Registry Report Structure        November 2018
    is up to the individual working groups to use this information as
    they see fit".
    
-McPherson & Sattler         Expires May 25, 2019                [Page 4]
+McPherson & Sattler         Expires May 24, 2019                [Page 4]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -262,7 +262,7 @@ A.2.  Change from 01 to 02
 
    Updated Neal's author details.
    
-McPherson & Sattler         Expires May 25, 2019                [Page 5]
+McPherson & Sattler         Expires May 24, 2019                [Page 5]
 
 Internet-Draft            Registry Report Structure        November 2018
    
@@ -310,5 +310,5 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler         Expires May 25, 2019                [Page 6]
+McPherson & Sattler         Expires May 24, 2019                [Page 6]
 
