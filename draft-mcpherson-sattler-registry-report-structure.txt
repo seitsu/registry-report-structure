@@ -1,10 +1,10 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                T. Sattler, Editor
-Expires: May 24, 2019                                  November 25, 2018
+Expires: May 29, 2019                                  November 30, 2018
 
                        Registry Report Structure
-          draft-mcpherson-sattler-registry-report-structure-06
+          draft-mcpherson-sattler-registry-report-structure-07
 
 Abstract
       
@@ -27,7 +27,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on May 24, 2019.
+   This Internet-Draft will expire on May 29, 2019.
 
 Copyright Notice
 
@@ -44,7 +44,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler         Expires May 24, 2019                [Page 1]
+McPherson & Sattler         Expires May 29, 2019                [Page 1]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -71,6 +71,7 @@ Table of Contents
      A.4.  Change from 03 to 04  . . . . . . . . . . . . . . . . . .   6
      A.5.  Change from 04 to 05  . . . . . . . . . . . . . . . . . .   6
      A.6.  Change from 05 to 06  . . . . . . . . . . . . . . . . . .   6
+     A.7.  Change from 06 to 07  . . . . . . . . . . . . . . . . . .   6
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
@@ -98,7 +99,7 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
-McPherson & Sattler         Expires May 24, 2019                [Page 2]
+McPherson & Sattler         Expires May 29, 2019                [Page 2]
 
 Internet-Draft            Registry Report Structure        November 2018
    
@@ -149,7 +150,7 @@ Internet-Draft            Registry Report Structure        November 2018
                and indicates a characteristic of the file contents or
                its intended use. The file suffix MUST be csv.
                
-McPherson & Sattler         Expires May 24, 2019                [Page 3]
+McPherson & Sattler         Expires May 29, 2019                [Page 3]
 
 Internet-Draft            Registry Report Structure        November 2018
                
@@ -167,7 +168,7 @@ Internet-Draft            Registry Report Structure        November 2018
 4.  File Types
 
    Files MUST be CSV files according to [RFC4180]. It is RECOMMENDED
-   to compress with gzip.
+   to compress with gzip according to [RFC1952].
 
 5.  Delimiter
 
@@ -207,7 +208,7 @@ Internet-Draft            Registry Report Structure        November 2018
    is up to the individual working groups to use this information as
    they see fit".
    
-McPherson & Sattler         Expires May 24, 2019                [Page 4]
+McPherson & Sattler         Expires May 29, 2019                [Page 4]
 
 Internet-Draft            Registry Report Structure        November 2018
 
@@ -233,7 +234,11 @@ Internet-Draft            Registry Report Structure        November 2018
               Repository", <https://datatracker.ietf.org/doc/draft-
               mcpherson-sattler-registry-reporting-repo/> (work in
               progress), July 2018
-
+              
+   [RFC1952]  Deutsch, P., "GZIP file format specification version 4.3",
+              RFC 1952, May 1996,
+              <https://www.rfc-editor.org/info/rfc1952>.
+   
    [RFC3339]  Klyne, G., Ed. and C. Newman, "Date and Time on the
               Internet: Timestamps", RFC 3339, July 2002,
               <https://www.rfc-editor.org/info/rfc3339>.
@@ -262,7 +267,7 @@ A.2.  Change from 01 to 02
 
    Updated Neal's author details.
    
-McPherson & Sattler         Expires May 24, 2019                [Page 5]
+McPherson & Sattler         Expires May 29, 2019                [Page 5]
 
 Internet-Draft            Registry Report Structure        November 2018
    
@@ -284,6 +289,10 @@ A.5.  Change from 04 to 05
 A.6.  Change from 05 to 06
 
    Clarified to compress the csv files with gzip.
+   
+A.7.  Change from 06 to 07
+
+   Added reference to RFC1952 for gzip.
 
 Appendix B.  Acknowledgements
 
@@ -310,5 +319,5 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler         Expires May 24, 2019                [Page 6]
+McPherson & Sattler         Expires May 29, 2019                [Page 6]
 
