@@ -1,16 +1,15 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                T. Sattler, Editor
-Expires: June 2, 2019                                   December 3, 2018
+Expires: July 30, 2019                                  January 31, 2019
 
-                       Registry Report Structure
-          draft-mcpherson-sattler-registry-report-structure-07
+                               Report Structure
+                draft-mcpherson-sattler-report-structure-00
 
 Abstract
       
-   This document describes the structure for reports that a domain name
-   registry can provide via the standardized registry reporting
-   repository.
+   This document describes the default Report Structure that can be
+   provided via the Reporting Repository.
 
 Status of This Memo
 
@@ -27,11 +26,11 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on June 2, 2019.
+   This Internet-Draft will expire on July 30, 2019.
 
 Copyright Notice
 
-   Copyright (c) 2018 IETF Trust and the persons identified as the
+   Copyright (c) 2019 IETF Trust and the persons identified as the
    document authors.  All rights reserved.
 
    This document is subject to BCP 78 and the IETF Trust's Legal
@@ -44,9 +43,9 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler         Expires June 2, 2019                [Page 1]
+McPherson & Sattler        Expires July 30, 2019                [Page 1]
 
-Internet-Draft            Registry Report Structure        December 2018
+Internet-Draft               Report Structure               January 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
@@ -72,6 +71,7 @@ Table of Contents
      A.5.  Change from 04 to 05  . . . . . . . . . . . . . . . . . .   6
      A.6.  Change from 05 to 06  . . . . . . . . . . . . . . . . . .   6
      A.7.  Change from 06 to 07  . . . . . . . . . . . . . . . . . .   6
+     A.8.  Change from 07 to REPORT 00 . . . . . . . . . . . . . . .   6
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   6
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   6
 
@@ -99,9 +99,9 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
-McPherson & Sattler         Expires June 2, 2019                [Page 2]
+McPherson & Sattler        Expires July 30, 2019                [Page 2]
 
-Internet-Draft            Registry Report Structure        December 2018
+Internet-Draft               Report Structure               January 2019
    
 2.1.  Internationalized Domain Names
 
@@ -150,9 +150,9 @@ Internet-Draft            Registry Report Structure        December 2018
                and indicates a characteristic of the file contents or
                its intended use. The file suffix MUST be csv.
                
-McPherson & Sattler         Expires June 2, 2019                [Page 3]
+McPherson & Sattler        Expires July 30, 2019                [Page 3]
 
-Internet-Draft            Registry Report Structure        December 2018
+Internet-Draft               Report Structure               January 2019
                
    Example based on the above grammar:
    
@@ -208,9 +208,9 @@ Internet-Draft            Registry Report Structure        December 2018
    is up to the individual working groups to use this information as
    they see fit".
    
-McPherson & Sattler         Expires June 2, 2019                [Page 4]
+McPherson & Sattler        Expires July 30, 2019                [Page 4]
 
-Internet-Draft            Registry Report Structure        December 2018
+Internet-Draft               Report Structure               January 2019
 
    Add implementation details once available.
 
@@ -267,9 +267,9 @@ A.2.  Change from 01 to 02
 
    Updated Neal's author details.
    
-McPherson & Sattler         Expires June 2, 2019                [Page 5]
+McPherson & Sattler        Expires July 30, 2019                [Page 5]
 
-Internet-Draft            Registry Report Structure        December 2018
+Internet-Draft               Report Structure               January 2019
    
 A.3.  Change from 02 to 03
 
@@ -293,6 +293,10 @@ A.6.  Change from 05 to 06
 A.7.  Change from 06 to 07
 
    Added reference to RFC1952 for gzip.
+   
+A.8.  Change from 07 to REPORT 00
+
+   Changed draft name.
 
 Appendix B.  Acknowledgements
 
@@ -319,5 +323,5 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler         Expires June 2, 2019                [Page 6]
+McPherson & Sattler        Expires July 30, 2019                [Page 6]
 
