@@ -1,7 +1,7 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                T. Sattler, Editor
-Expires: July 30, 2019                                  January 31, 2019
+Expires: July 28, 2019                                  January 29, 2019
 
                              Report Structure
                 draft-mcpherson-sattler-report-structure-00
@@ -26,7 +26,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on July 30, 2019.
+   This Internet-Draft will expire on July 28, 2019.
 
 Copyright Notice
 
@@ -43,7 +43,7 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler        Expires July 30, 2019                [Page 1]
+McPherson & Sattler        Expires July 28, 2019                [Page 1]
 
 Internet-Draft               Report Structure               January 2019
 
@@ -99,7 +99,7 @@ Table of Contents
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
    
-McPherson & Sattler        Expires July 30, 2019                [Page 2]
+McPherson & Sattler        Expires July 28, 2019                [Page 2]
 
 Internet-Draft               Report Structure               January 2019
    
@@ -150,7 +150,7 @@ Internet-Draft               Report Structure               January 2019
                and indicates a characteristic of the file contents or
                its intended use. The file suffix MUST be csv.
                
-McPherson & Sattler        Expires July 30, 2019                [Page 3]
+McPherson & Sattler        Expires July 28, 2019                [Page 3]
 
 Internet-Draft               Report Structure               January 2019
                
@@ -208,7 +208,7 @@ Internet-Draft               Report Structure               January 2019
    is up to the individual working groups to use this information as
    they see fit".
    
-McPherson & Sattler        Expires July 30, 2019                [Page 4]
+McPherson & Sattler        Expires July 28, 2019                [Page 4]
 
 Internet-Draft               Report Structure               January 2019
 
@@ -266,7 +266,7 @@ A.2.  Change from 01 to 02
 
    Updated Neal's author details.
    
-McPherson & Sattler        Expires July 30, 2019                [Page 5]
+McPherson & Sattler        Expires July 28, 2019                [Page 5]
 
 Internet-Draft               Report Structure               January 2019
    
@@ -322,5 +322,5 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler        Expires July 30, 2019                [Page 6]
+McPherson & Sattler        Expires July 28, 2019                [Page 6]
 
