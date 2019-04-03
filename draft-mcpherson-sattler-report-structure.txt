@@ -223,8 +223,7 @@ Internet-Draft                 Report Structure               April 2019
 
    Description: Domain Reseller Platform
 
-   Level of maturity: Research implementation in united-domains
-   Reselling environment.
+   Level of maturity: Deployed in production.
    
    Version compatibility: Version REPO 01 is implemented.
 
