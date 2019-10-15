@@ -1,10 +1,10 @@
 Internet Engineering Task Force                             N. McPherson
 Internet-Draft                                              1&1 IONOS SE
 Intended status: Best Current Practice                T. Sattler, Editor
-Expires: October 14, 2019                                 April 15, 2019
+Expires: April 15, 2020                                 October 15, 2019
 
                              Report Structure
-                draft-mcpherson-sattler-report-structure-02
+                draft-mcpherson-sattler-report-structure-03
 
 Abstract
       
@@ -26,7 +26,7 @@ Status of This Memo
    time.  It is inappropriate to use Internet-Drafts as reference
    material or to cite them other than as "work in progress".
 
-   This Internet-Draft will expire on October 14, 2019.
+   This Internet-Draft will expire on April 15, 2020.
 
 Copyright Notice
 
@@ -43,38 +43,39 @@ Copyright Notice
    the Trust Legal Provisions and are provided without warranty as
    described in the Simplified BSD License.
 
-McPherson & Sattler        Expires October 14, 2019             [Page 1]
+McPherson & Sattler          Expires April 15, 2020             [Page 1]
 
-Internet-Draft                 Report Structure               April 2019
+Internet-Draft                 Report Structure             October 2019
 
 Table of Contents
    1.  Introduction  . . . . . . . . . . . . . . . . . . . . . . . .   2
-   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   2
+   2.  Terminology and Definitions . . . . . . . . . . . . . . . . .   3
      2.1.  Internationalized Domain Names  . . . . . . . . . . . . .   3
      2.2.  Dates and Times . . . . . . . . . . . . . . . . . . . . .   3
      2.3.  Character Encoding  . . . . . . . . . . . . . . . . . . .   3
      2.4.  Currency  . . . . . . . . . . . . . . . . . . . . . . . .   3
-   3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   3
+   3.  File Names  . . . . . . . . . . . . . . . . . . . . . . . . .   4
    4.  File Types  . . . . . . . . . . . . . . . . . . . . . . . . .   4
    5.  Delimiter . . . . . . . . . . . . . . . . . . . . . . . . . .   4
    6.  IANA Considerations . . . . . . . . . . . . . . . . . . . . .   4
    7.  Security Considerations . . . . . . . . . . . . . . . . . . .   4
    8.  Implementation Status . . . . . . . . . . . . . . . . . . . .   4
-     8.1.  united-domains Reselling  . . . . . . . . . . . . . . . .   4
+     8.1.  united-domains Reselling  . . . . . . . . . . . . . . . .   5
    9.  References  . . . . . . . . . . . . . . . . . . . . . . . . .   5
      9.1.  Normative References  . . . . . . . . . . . . . . . . . .   5
-     9.2.  Informative References  . . . . . . . . . . . . . . . . .   5
+     9.2.  Informative References  . . . . . . . . . . . . . . . . .   6
    Appendix A.  Change History . . . . . . . . . . . . . . . . . . .   6
      A.1.  Change from 00 to 01  . . . . . . . . . . . . . . . . . .   6
      A.2.  Change from 01 to 02  . . . . . . . . . . . . . . . . . .   6
      A.3.  Change from 02 to 03  . . . . . . . . . . . . . . . . . .   6
      A.4.  Change from 03 to 04  . . . . . . . . . . . . . . . . . .   6
      A.5.  Change from 04 to 05  . . . . . . . . . . . . . . . . . .   6
-     A.6.  Change from 05 to 06  . . . . . . . . . . . . . . . . . .   6
-     A.7.  Change from 06 to 07  . . . . . . . . . . . . . . . . . .   6
-     A.8.  Change from 07 to REPORT 00 . . . . . . . . . . . . . . .   6
-     A.9.  Change from REPORT 00 to REPORT 01  . . . . . . . . . . .   6
+     A.6.  Change from 05 to 06  . . . . . . . . . . . . . . . . . .   7
+     A.7.  Change from 06 to 07  . . . . . . . . . . . . . . . . . .   7
+     A.8.  Change from 07 to REPORT 00 . . . . . . . . . . . . . . .   7
+     A.9.  Change from REPORT 00 to REPORT 01  . . . . . . . . . . .   7
      A.10. Change from REPORT 01 to REPORT 02  . . . . . . . . . . .   7
+     A.11. Change from REPORT 02 to REPORT 03  . . . . . . . . . . .   7
    Appendix B.  Acknowledgements . . . . . . . . . . . . . . . . . .   7
    Authors' Addresses  . . . . . . . . . . . . . . . . . . . . . . .   7
 
@@ -94,6 +95,10 @@ Table of Contents
    This document describes the default Report Structure for Reports
    which can be provide via the
    [I-D.mcpherson-sattler-reporting-repository].
+   
+McPherson & Sattler          Expires April 15, 2020             [Page 2]
+
+Internet-Draft                 Report Structure             October 2019
 
 2.  Terminology and Definitions
 
@@ -101,10 +106,6 @@ Table of Contents
    "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this
    document are to be interpreted as described in [RFC2119] when
    specified in their uppercase forms.
-   
-McPherson & Sattler        Expires October 14, 2019             [Page 2]
-
-Internet-Draft                 Report Structure               April 2019
    
 2.1.  Internationalized Domain Names
 
@@ -132,6 +133,10 @@ Internet-Draft                 Report Structure               April 2019
    alphabetic code according to ISO 4217 (https://www.iso.org/iso-4217-
    currency-codes.html).
    
+McPherson & Sattler          Expires April 15, 2020             [Page 3]
+
+Internet-Draft                 Report Structure             October 2019
+   
 3.  File Names
 
    Files MUST be lowercase and follow this grammar:
@@ -152,10 +157,6 @@ Internet-Draft                 Report Structure               April 2019
    FILESUFFIX  identifier specified as a suffix to the name of the file
                and indicated a characteristic of the file contents or
                its intended use. The file suffix MUST be csv.
-               
-McPherson & Sattler        Expires October 14, 2019             [Page 3]
-
-Internet-Draft                 Report Structure               April 2019
                
    Example based on the above grammar:
    
@@ -190,6 +191,10 @@ Internet-Draft                 Report Structure               April 2019
 
    Note to RFC Editor: Please remove this section and the reference to
    [RFC7942] before publication.
+   
+McPherson & Sattler          Expires April 15, 2020             [Page 4]
+
+Internet-Draft                 Report Structure             October 2019
 
    This section records the status of known implementations of the
    protocol defined by this specification at the time of posting of this
@@ -210,10 +215,6 @@ Internet-Draft                 Report Structure               April 2019
    and feedback that have made the implemented protocols more mature. It
    is up to the individual working groups to use this information as
    they see fit".
-   
-McPherson & Sattler        Expires October 14, 2019             [Page 4]
-
-Internet-Draft                 Report Structure               April 2019
 
 8.1.  united-domains Reselling
 
@@ -247,6 +248,10 @@ Internet-Draft                 Report Structure               April 2019
               Applications (IDNA): Definitions and Document Framework",
               RFC 5890, August 2010,
               <https://www.rfc-editor.org/info/rfc5890>.
+              
+McPherson & Sattler          Expires April 15, 2020             [Page 5]
+
+Internet-Draft                 Report Structure             October 2019
 
 9.2.  Informative References
 
@@ -266,10 +271,6 @@ Internet-Draft                 Report Structure               April 2019
    [RFC3629]  Yergeau, F., "UTF-8, a transformation format of ISO
               10646", RFC 3629, November 2003,
               <https://www.rfc-editor.org/info/rfc3629>.
-              
-McPherson & Sattler        Expires October 14, 2019             [Page 5]
-
-Internet-Draft                 Report Structure               April 2019
 
    [RFC4180]  Shafranovich, Y., "Common Format and MIME Type for
               Comma-Separated Values (CSV) Files", RFC 4180,
@@ -306,6 +307,10 @@ A.5.  Change from 04 to 05
    Added editor flag to author. Minor formatting changes. Changed
    security considerations.
    
+McPherson & Sattler          Expires April 15, 2020             [Page 6]
+
+Internet-Draft                 Report Structure             October 2019
+   
 A.6.  Change from 05 to 06
 
    Clarified to compress the csv files with gzip.
@@ -322,14 +327,14 @@ A.9.  Change from REPORT 00 to REPORT 01
 
    Added implementation reference and acknowledgement. Editorial
    changes.
-   
-McPherson & Sattler        Expires October 14, 2019             [Page 6]
-
-Internet-Draft                 Report Structure               April 2019
 
 A.10. Change from REPORT 01 to REPORT 02
 
    Changed implementation reference. Editorial changes.
+   
+A.11. Change from REPORT 02 to REPORT 03
+
+   Editorial changes.
 
 Appendix B.  Acknowledgements
 
@@ -357,5 +362,5 @@ Authors' Addresses
    Email: tobias.sattler@me.com
    URI:   https://tobiassattler.com
 
-McPherson & Sattler        Expires October 14, 2019             [Page 7]
+McPherson & Sattler          Expires April 15, 2020             [Page 7]
 
